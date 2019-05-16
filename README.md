@@ -1,7 +1,7 @@
 # Word-Embeddings
 
 This repository contains word embedding files created from running a Word2Vec pipeline on the following natural text sources:
-* Wikipedia: Wikipedia hosts general-purpose knowledge. A prepared XML dump from April 2017 was downloaded from https://dumps.wikimedia.org/backup-index.html. 
+* Wikipedia: Wikipedia hosts general-purpose knowledge. A prepared XML dump from October 2018 was downloaded from https://dumps.wikimedia.org/backup-index.html. 
 * Skybrary, a wiki hosting aviation knowledge: https://www.skybrary.aero/index.php. Here, the entire Skybrary wiki was scraped (with permission from Eurocontrol) using dumpgenerator.py from WikiTeam (https://github.com/WikiTeam/wikiteam).
 
 # Procedure used for creating the Word Embedding files
