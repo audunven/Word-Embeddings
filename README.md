@@ -9,4 +9,4 @@ For both the mentioned sources the following configuration was applied:
 * WikiExtractor.py (https://github.com/attardi/wikiextractor) was used to extract relevant text from the XML dumps.
 * Gensim (gensim.utils.simple_preprocess()) was used for pre-processing.
 * Gensim Word2Vec and the Skip Gram model was used for learning the embedding vectors.
-* Window size: 5, word frequency: 0.001, words discarding: less than 5 times, iterations: 5, embedding size: 300.
+* Window size: 5, minimum word count: 2, iterations: 5, embedding size: 300.
